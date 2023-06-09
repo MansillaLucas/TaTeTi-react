@@ -1,0 +1,40 @@
+.container{
+    display: block; 
+    margin: auto;
+    width: 240px;
+    place-content: center;
+    align-items: center;
+}
+
+.row{
+    display: inline-block;
+
+}
+
+.square{
+    height: 75px;
+    width: 75px;
+    background-color: grey;
+    text-align: center;
+    line-height: 75px;
+    border-radius: 3px;
+    margin: 0px 2.5px 0px;
+}
+
+.crossPick{
+    background-color: cornflowerblue;
+}
+
+.circlePick{
+    background-color:crimson;
+}
+
+.messageDisplay{
+    margin-top: 10px;
+    height: 50px;
+    background-color: grey;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 50px;
+}
